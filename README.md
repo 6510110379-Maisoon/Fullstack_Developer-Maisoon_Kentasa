@@ -29,11 +29,9 @@ npm start
 
 ---
 
-# ตัวอย่างข้อมูลที่แสดงบน dashboard
-Employee Name	Join Date	Role	Team Member
-Mr.A	3-Feb-2025	Data Analyst	Pattama Sooksan
-Ms.D	17-Feb-2025	Project Coordinator	Raewwadee Jaidee
-
 # สอบถามเพิ่มเติม ติดต่อ 
 [มัยซูน เก็นตาสา]
 [6510110379@psu.ac.th]
+
+# Github link
+https://github.com/6510110379-Maisoon/Fullstack_Developer-Maisoon_Kentasa
