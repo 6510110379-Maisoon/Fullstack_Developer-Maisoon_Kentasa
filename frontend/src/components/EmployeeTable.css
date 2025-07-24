@@ -1,0 +1,47 @@
+/* EmployeeTable.css */
+table {
+  width: 100%;
+  border-collapse: separate;  
+  border-spacing: 0 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+thead tr {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+th, td {
+  padding: 16px 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+tbody tr {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: default;
+}
+
+tbody tr:hover {
+  background-color: #eaf3fc;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+}
+
+tbody td {
+  border-bottom: none;
+}
+
+tbody td:not(:last-child) {
+  border-right: 1px solid #ddd;
+}

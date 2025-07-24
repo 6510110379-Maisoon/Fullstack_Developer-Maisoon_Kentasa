@@ -1,0 +1,16 @@
+# Root level .gitignore
+
+# backend
+/backend/node_modules/
+/backend/uploads/   # เพราะ multer เก็บไฟล์ชั่วคราวใน uploads
+/backend/*.log
+/backend/.env       # ถ้ามีไฟล์ environment
+
+# frontend
+/frontend/node_modules/
+/frontend/build/    # build output ของ React
+
+# OS และ editor
+.DS_Store
+Thumbs.db
+.vscode/
